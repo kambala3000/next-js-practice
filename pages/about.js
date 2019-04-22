@@ -1,9 +1,10 @@
-import React from "react"
+// components
+import Layout from "../components/MyLayout.js"
 
 const About = () => (
-  <div>
+  <Layout>
     <p>This is the about page</p>
-  </div>
+  </Layout>
 )
 
 export default About
